@@ -11,12 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1645158742,,"wq!"
 :wq
 |2,0,1641847975,,"wq"
 :qa!
 |2,0,1641783139,,"qa!"
-:wq!
-|2,0,1641783116,,"wq!"
 :q
 |2,0,1641783057,,"q"
 :Wq!
@@ -33,26 +33,50 @@
 # Registers:
 
 # File marks:
-'0  3  2  ~/s2.txt
-|4,48,3,2,1641847975,"~/s2.txt"
-'1  8  0  ~/s1.txt
-|4,49,8,0,1641847874,"~/s1.txt"
-'2  1  13  /root/sample.txt
-|4,50,1,13,1641783139,"/root/sample.txt"
+'0  1  5  ~/abc.txt
+|4,48,1,5,1645158742,"~/abc.txt"
+'1  3  2  ~/s2.txt
+|4,49,3,2,1641847975,"~/s2.txt"
+'2  8  0  ~/s1.txt
+|4,50,8,0,1641847874,"~/s1.txt"
+'3  1  13  /root/sample.txt
+|4,51,1,13,1641783139,"/root/sample.txt"
 
 # Jumplist (newest first):
+-'  1  5  ~/abc.txt
+|4,39,1,5,1645158742,"~/abc.txt"
 -'  3  2  ~/s2.txt
 |4,39,3,2,1641847975,"~/s2.txt"
+-'  3  2  ~/s2.txt
+|4,39,3,2,1641847975,"~/s2.txt"
+-'  1  0  ~/s2.txt
+|4,39,1,0,1641847962,"~/s2.txt"
 -'  1  0  ~/s2.txt
 |4,39,1,0,1641847962,"~/s2.txt"
 -'  8  0  ~/s1.txt
 |4,39,8,0,1641847874,"~/s1.txt"
 -'  8  0  ~/s1.txt
 |4,39,8,0,1641847874,"~/s1.txt"
+-'  8  0  ~/s1.txt
+|4,39,8,0,1641847874,"~/s1.txt"
+-'  8  0  ~/s1.txt
+|4,39,8,0,1641847874,"~/s1.txt"
 -'  1  0  ~/s1.txt
 |4,39,1,0,1641847840,"~/s1.txt"
 -'  1  0  ~/s1.txt
 |4,39,1,0,1641847840,"~/s1.txt"
+-'  1  0  ~/s1.txt
+|4,39,1,0,1641847840,"~/s1.txt"
+-'  1  0  ~/s1.txt
+|4,39,1,0,1641847840,"~/s1.txt"
+-'  1  13  /root/sample.txt
+|4,39,1,13,1641783139,"/root/sample.txt"
+-'  1  13  /root/sample.txt
+|4,39,1,13,1641783139,"/root/sample.txt"
+-'  1  13  /root/sample.txt
+|4,39,1,13,1641783139,"/root/sample.txt"
+-'  1  13  /root/sample.txt
+|4,39,1,13,1641783139,"/root/sample.txt"
 -'  1  13  /root/sample.txt
 |4,39,1,13,1641783139,"/root/sample.txt"
 -'  1  13  /root/sample.txt
@@ -63,6 +87,13 @@
 |4,39,1,13,1641783139,"/root/sample.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/abc.txt
+	*	1645158739	0
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
 
 > ~/s2.txt
 	*	1641847974	0
